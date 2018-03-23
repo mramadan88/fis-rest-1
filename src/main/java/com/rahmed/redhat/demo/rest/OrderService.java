@@ -13,7 +13,7 @@
  * implied.  See the License for the specific language governing
  * permissions and limitations under the License.
  */
-package com.vodafone.demo.rest;
+package com.rahmed.redhat.demo.rest;
 
 import java.util.Map;
 import java.util.Random;

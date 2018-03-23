@@ -1,4 +1,4 @@
-package com.vodafone.demo.rest;
+package com.rahmed.redhat.demo.rest;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.servlet.CamelHttpTransportServlet;

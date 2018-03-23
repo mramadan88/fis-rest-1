@@ -1,10 +1,10 @@
-package com.vodafone.demo.rest;
+package com.rahmed.redhat.demo.rest;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.processor.idempotent.MemoryIdempotentRepository;
 import org.springframework.stereotype.Component;
 
-import com.vodafone.demo.rest.Order;
+import com.rahmed.redhat.demo.rest.Order;
 
 @Component
 public class OrderREST extends RouteBuilder{

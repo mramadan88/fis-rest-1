@@ -1,4 +1,4 @@
-package com.vodafone.demo.rest;
+package com.rahmed.redhat.demo.rest;
 // /*
 //  * Copyright 2005-2016 Red Hat, Inc.
 //  *
