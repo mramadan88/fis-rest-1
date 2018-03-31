@@ -29,7 +29,7 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- import Fabric8 platform BOM first -->
+			<!-- import Fabric8 platform BOM first : Note we are not using spring boot starter parent-->
 			<dependency>
 				<groupId>io.fabric8</groupId>
 				<artifactId>fabric8-project-bom-camel-spring-boot</artifactId>
@@ -61,6 +61,7 @@
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-servlet-starter</artifactId>
 		</dependency>
+		<!-- Needed as the default embedded in spring-boot-starter-web is tomcat  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-undertow</artifactId>
